@@ -1,0 +1,19 @@
+{
+  "name": "automation_api_javascript",
+  "version": "1.0.0",
+  "description": "learning automation api js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbopandji/automation_api_javascript.git"
+  },
+  "author": "PandjiMuliaBudiman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbopandji/automation_api_javascript/issues"
+  },
+  "homepage": "https://github.com/dbopandji/automation_api_javascript#readme"
+}
