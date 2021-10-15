@@ -4,7 +4,7 @@
   "description": "learning automation api js",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -t 10000 api/**"
+    "test": "mocha -t 10000 api/** -reporter mochawesome --reporter-options reportDir=reports,reportFilename=api_automation_repor"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,8 @@
     "chai": "^4.3.4",
     "chai-json-schema": "^1.5.1",
     "mocha": "^9.1.2",
+    "mochawesome": "^6.3.0",
+    "mochawesome-report-generator": "^5.2.0",
     "supertest": "^6.1.6"
   }
 }
